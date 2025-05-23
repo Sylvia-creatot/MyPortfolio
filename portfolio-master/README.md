@@ -1,6 +1,6 @@
 # Sylvia Portfolio
 
-Welcome to my personal portfolio repository! This project showcases my skills, projects, and experiences as a Software Engineer, Data Analyst
+Welcome to my personal portfolio repository! This project showcases my skills, projects, and experiences as a Software Engineer, Oracle Applications Engineer
 and Application support Engineer.
 
 ## Table of Contents
@@ -18,14 +18,16 @@ This portfolio website is built using HTML, CSS, and JavaScript. It is designed 
 
 ## Skills
 Here are some of the skills highlighted in my portfolio:
+- Oracle Applications development.
+- Applications Support.
 - Web Development.
 - Python.
 - Data Analysis and Visualization.
 - AI & Machine Learning
 
 ## Projects
-
-(Add more projects as needed)
+I have been involved in the projects below:
+- 
 
 ## Installation
 To run this portfolio locally on your machine, follow these steps:
