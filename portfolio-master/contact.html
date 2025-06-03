@@ -60,6 +60,70 @@
 
     
     <!-- contact page -->
+
+    <section class="contact container">
+  <div class="title">
+    <h2>Contact</h2>
+    <div>
+      <h2>Get in Touch</h2>
+    </div>
+  </div>
+
+  <p class="text">
+    You can always reach out via the contact details below and let me know how we can work together.
+  </p>
+
+  <div class="row">
+    <div class="col-left">
+      <h2>Feel free to ask about anything!</h2>
+
+      <div class="contact-info">
+        <span><i class="fas fa-envelope-open"></i></span>
+        <h3>
+          <span class="text">Mail</span> <br>
+          nyanganyisylviah@gmail.com
+        </h3>
+      </div>
+
+      <div class="contact-info">
+        <span><i class="fas fa-phone-square-alt"></i></span>
+        <h3>
+          <span class="text">Call</span> <br>
+          +254 723 604 089
+        </h3>
+      </div>
+
+      <form action="https://formspree.io/f/meokqvgn" method="POST">
+        <div class="form-group">
+          <input id="your-name" name="name" type="text" placeholder="Your name" required>
+          <input id="your-email" name="email" type="email" placeholder="Your email" required>
+          <input id="subject" name="subject" type="text" placeholder="Your subject" required>
+        </div>
+        <textarea name="message" placeholder="Your message..." rows="6" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+
+      <p class="text" id="success-msg" style="display:none; color: green; margin-top: 10px;">
+        ✅ Message sent! Thank you 😊
+      </p>
+    </div>
+  </div>
+
+  <script>
+    const form = document.querySelector("form");
+    const successMsg = document.getElementById("success-msg");
+
+    form.addEventListener("submit", function (e) {
+      setTimeout(() => {
+        successMsg.style.display = "block";
+        form.reset();
+      }, 1000);
+    });
+  </script>
+</section>
+
+commented section
+    <!-- 
     <section class = "contact container">
         <div class = "title">
           <h2>contact</h2>
@@ -95,16 +159,18 @@
                 <input id="your-email" type = "email" placeholder="your email">
                 <input id="subject" type = "text" placeholder="your subject">
               </div>
-              <textarea placeholder="Your mesage..." rows = "6"></textarea>
-              <!-- <input class="btn-2" type="submit" value="Send Message"> -->
+              <textarea placeholder="Your message..." rows = "6"></textarea>
+              <!-- <input class="btn-2" type="submit" value="Send Message">
               <button type = "submit" class = "btn">send message</button>
             </form>
           </div>
         </div>
-      </section>
-      <!-- end of contact page -->
-      
-    
+      </section> -->
+End of commentes section
+
+      <!-- end of contact page --> 
+  
+
 
     <footer class="footer container">
         <div class = "row">
