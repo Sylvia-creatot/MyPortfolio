@@ -20,11 +20,14 @@ window.addEventListener('resize', () => {
 const name = document.querySelector('.your-name')
 const email = document.querySelector('.you-email')
 const subject = document.querySelector('.subject')
+const contactForm = document.querySelector('.contact-form')
 
-document.querySelector('.contact-form').addEventListener('submit', (e) => {
-    e.preventDefault()
-    validateMail()
-})
+if (contactForm) {
+    contactForm.addEventListener('submit', (e) => {
+        e.preventDefault()
+        validateMail()
+    })
+}
 
 function validateMail() {
     if (name.value === '' || email.value === '' || subject.value === '') {
