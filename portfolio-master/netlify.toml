@@ -1,6 +1,2 @@
-[build]
-  base = "portfolio-master"
-  publish = "portfolio-master"
-
 [functions]
   directory = "portfolio-master/netlify/functions"
