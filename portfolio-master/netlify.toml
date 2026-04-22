@@ -1,2 +1,2 @@
 [functions]
-  directory = "portfolio-master/netlify/functions"
+  directory = "netlify/functions"
